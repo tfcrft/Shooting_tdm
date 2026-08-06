@@ -1,7 +1,0 @@
-.hotbar{position:absolute;bottom:17px;left:50%;transform:translateX(-50%);display:flex;gap:3px;align-items:flex-end}
-.hotbar>span{width:50px;height:45px;background:#0b111dda;border:1px solid #445168;display:grid;place-items:center;position:relative;color:#96a3b6}
-.hotbar>span i{position:absolute;left:3px;top:2px;font:7px sans-serif;color:#647389}
-.hotbar>span b{font-size:7px;font-weight:600;text-align:center}
-.hotbar>span em{display:block;color:var(--gold);font-style:normal;font-size:9px}
-.hotbar>span.selected{height:53px;border-color:var(--gold);box-shadow:inset 0 -3px var(--gold);color:#fff;background:#352c1d}
-@media(max-width:800px){.hotbar{transform:translateX(-50%) scale(.72);transform-origin:bottom center}}
